@@ -1,0 +1,52 @@
+p {
+    margin-bottom: 0;
+}
+
+.album-link {
+    font-size: 18px;
+    text-decoration: none;
+    color: #617282;
+}
+
+.album-list-item {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+@media (min-width: 768px) {
+    .modal-size {
+        max-width: 635px;
+    }
+}
+
+@media (max-width: 768px) {
+    .modal-full-photo {
+        width: 100%;
+    }
+
+    .modal-container {
+        padding: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .modal-size {
+        margin: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .album-list-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+@media (max-width: 1200px) {
+    .photo-description-block {
+        padding: 0.5rem;
+    }
+
+    .photo-description-text {
+        font-size: 13px;
+    }
+}
